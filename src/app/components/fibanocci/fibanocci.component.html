@@ -1,0 +1,6 @@
+<label>Enter a number to generate the fibanocci</label><input #usersnumber value="{{usersNumber}}" type="number" />
+<button type="button" (click)="calculateFibanocci()">Get Fibanocci</button>
+
+<ul>
+    <li *ngFor="let x of result">{{x}}</li>
+</ul>

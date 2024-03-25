@@ -1,0 +1,11 @@
+
+    <div>
+        <label for="username">User Name:</label><input [value]="username" type="text" id="username">
+    </div>
+    <div>
+        <label for="password">Password:</label><input type="password" [value]="password" id="password">
+    </div>
+    <div>
+        <button type="submit" (click)="onLoginClicked()">Login</button>
+    </div>
+    {{username}} / {{password}}

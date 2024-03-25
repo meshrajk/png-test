@@ -1,0 +1,7 @@
+<label>Are these anagrams</label>
+<input [value]="firstWord" />
+<input [value]="secondword" />
+<button type="button" (click)="checkIfAnagram()">Are these Anagram</button>
+
+<div *ngIf="result">They are anagrams</div>
+<div *ngIf="!result">They are not an anagram</div>
